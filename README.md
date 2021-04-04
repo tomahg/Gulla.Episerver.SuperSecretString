@@ -1,5 +1,7 @@
 # Gulla.Episerver.SuperSecretString
 
+:warning: **This addon were published for April Fools Day (April 1st) 2021**: . While the Whitespace language being used is very real, and the addon saves string as Whitespace code in your database, this is probably not a good idea.
+
 A custom Episerver property that will save its value as [Whitespace code](https://esolangs.org/wiki/Whitespace) in the database, so it's basicly invisible. In Episerver edit mode, or rendered on a page, the property will look exactly like any other property.
 
 ## Usage
