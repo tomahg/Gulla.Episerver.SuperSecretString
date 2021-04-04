@@ -7,7 +7,7 @@ A custom Episerver property that will save its value as [Whitespace code](https:
 More information in [this blog post](https://www.gulla.net/en/blog/hiding-secrets-in-episerver/)
 
 ## Usage
-Install the [NuGet package](https://www.nuget.org/packages/Gulla.Episerver.SuperSecretString/) package and add the backing type attribute to selected properties that holds super secret data like this.
+Install the [NuGet package](https://www.nuget.org/packages/Gulla.Episerver.SuperSecretString/) package and add the backing type attribute to selected properties that holds super secret data like this. The addon is intended as a joke, and a proof of concept, not for production use.
 
 ``` csharp
 [Display(Name = "Super secret string property")]
