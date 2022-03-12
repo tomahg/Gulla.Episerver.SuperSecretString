@@ -1,4 +1,6 @@
-# Gulla.Episerver.SuperSecretString
+# Gulla.Episerver.SuperSecretString for CMS 12
+
+This is the readme for the CMS 12 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.Episerver.SuperSecretString/tree/cms11).
 
 :warning: **This addon were published for April Fools Day (April 1st) 2021: While the Whitespace language being used is very real, and the addon saves string as Whitespace code in your database, this is probably not a good idea for actual security measures.**
 
