@@ -6,11 +6,11 @@ using EPiServer.PlugIn;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Gulla.Episerver.SuperSecretString")]
-[assembly: AssemblyDescription("April Fools: Adds «invisible ink» to your Episerver CMS installation, that let you store invisible data in the database. Not intended for security measures.")]
+[assembly: AssemblyDescription("April Fools: Adds «invisible ink» to your Optimizely (formerly Episerver) CMS installation, that let you store invisible data in the database. Not intended for security measures.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tomas Hensrud Gulla")]
 [assembly: AssemblyProduct("Gulla.Episerver.SuperSecretString")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright © 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: PlugInSummary("https://github.com/tomahg/Gulla.Episerver.SuperSecretString", LicensingMode.CustomLicense)]
@@ -33,5 +33,5 @@ using EPiServer.PlugIn;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("2.0.2.0")]
+[assembly: AssemblyFileVersion("2.0.2.0")]
