@@ -1,17 +1,16 @@
 ﻿using System;
 using EPiServer.Core;
-using EPiServer.PlugIn;
+using EPiServer.DataAnnotations;
 
 namespace Gulla.Episerver.SuperSecretString;
 
-[PropertyDefinitionTypePlugIn(
+[PropertyDefinitionType(
     DisplayName = "Super Secret String",
     Description = "A property for storing a super secret string out of sight",
     GUID = "CF6063F9-0D9E-41EA-8FC6-04809C3DA8FD")]
 public class PropertySuperSecretString : PropertyLongString
 {
-
-    public override object SaveData(PropertyDataCollection properties)
+    public override object SaveData()
     {
         return LongString;
     }

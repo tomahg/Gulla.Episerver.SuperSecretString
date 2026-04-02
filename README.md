@@ -1,10 +1,10 @@
-# Gulla.Episerver.SuperSecretString for CMS 12
+# Gulla.Episerver.SuperSecretString for CMS 13
 
-This is the readme for the CMS 12 version, the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.Episerver.SuperSecretString/tree/cms11).
+This is the readme for the CMS 13 version, the version for CMS 12 is [over here](https://github.com/tomahg/Gulla.Episerver.SuperSecretString/tree/cms12) and the version for CMS 11 is [over here](https://github.com/tomahg/Gulla.Episerver.SuperSecretString/tree/cms11).
 
 :warning: **This addon were published for April Fools Day (April 1st) 2021: While the Whitespace language being used is very real, and the addon saves string as Whitespace code in your database, this is probably not a good idea for actual security measures.**
 
-A custom Episerver property that will save its value as [Whitespace code](https://esolangs.org/wiki/Whitespace) in the database, so it's basicly invisible. In Episerver edit mode, or rendered on a page, the property will look exactly like any other property.
+A custom property for Optimizely CMS that will save its value as [Whitespace code](https://esolangs.org/wiki/Whitespace) in the database, so it's basicly invisible. In Episerver edit mode, or rendered on a page, the property will look exactly like any other property.
 
 More information in [this blog post](https://www.gulla.net/en/blog/hiding-secrets-in-episerver/).
 
